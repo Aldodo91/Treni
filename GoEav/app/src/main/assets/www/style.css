@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.tsopra{
+    height:auto;
+}
+#current-time{
+    font-size: 20px;
+    font-weight:400;
+}
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.remain{
+    height:35px;
+    border:1px;
+    margin-bottom:5px
+    max-width: 100%;
+    padding-top: 10;
+    padding-bottom:6px;
+    max-height: 100%;
+    background-color:#009400;
+    margin-left : 5px;
+    margin-right: 5px;
+}
+.remain-t{
+    color: white;
+    font-weight:300;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.temposcorre{
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.att-box {
+    height:45px;
+    border:1px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 10;
+    background-color:#ededed;
+    margin-top:6px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+.att-fig{
+    color: #303030;
+    font-weight: normal;
+    font-size: 14;
+    padding-left: 15px;
+}
+.dtoggi{
+    color: #868686;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 19.5px;
+    font-weight: 400;
+
+}
+.trio{
+    display: flex;
+    padding-top: 20; vertical-align: middle;
+    justify-content: right;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: medium;
+}
+.trio-data-din{
+    padding-left: 10;
+    clear: both;
+     font-size: larger;
+}
+.e130{
+    padding-left: 337px;
+    width: 70;
+    height: 30;
+}
+table {
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    padding-top: 10px;
+}
+
+td, th {
+  text-align: left;
+  padding: 1px;
+  font-weight: normal;
+  margin: 0px;
+  vertical-align: bottom;
+}
+
+.sin{
+    text-align: right;
+    vertical-align:top;
+}
+
+#myProgress {
+  width: 70px;
+  height: 10px;
+  background-color: white;
+  border-color:rgb(146, 4, 4);
+  border-style: solid;
+  border-width: 2px;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#myBar {
+    vertical-align:middle;
+    height: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius: 20px;
+    margin-top:0.5;
+    margin-bottom:0.5;
+    margin-right:0.5;
+    margin-left:1;
+
+}
